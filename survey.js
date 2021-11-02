@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("What's your name? Nicknames are also acceptable :) ", (answer) => {
-  name += `${answer}`;
+  name = `${answer}`;
 
   rl.question("What's an activity you like doing? ", (answer) => {
     outputstring += `${name} really enjoys ${answer}`;
